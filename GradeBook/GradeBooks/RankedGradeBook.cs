@@ -24,6 +24,7 @@ namespace GradeBook.GradeBooks
             // now our list of Average grade will be sorted
             listOfAverageGrades.Sort();
             int rank = listOfAverageGrades.IndexOf(averageGrade);
+            rank +=1;
 
             if (rank == -1)
             { // if for some reason we could not find the rank yet
